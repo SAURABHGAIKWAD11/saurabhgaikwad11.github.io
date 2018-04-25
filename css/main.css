@@ -43,3 +43,14 @@ h3 {
 	padding-left:20px;
 	color:green;
 }
+
+  ul.services {
+    list-style: none;
+    padding: 0px;
+}
+
+ul.services li:before
+{
+    content: '\25BA';
+    margin: 0 1em;    /* any design */
+}
